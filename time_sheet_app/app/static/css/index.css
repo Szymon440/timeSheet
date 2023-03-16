@@ -1,0 +1,36 @@
+.timer {
+  color: #2a2c2d;
+  font-size: 14px;
+  font-family: helvetica;
+  margin: 0 1em;
+  max-height:3em;
+}
+
+.timeField::-webkit-datetime-edit-fields-wrapper {
+  display: flex;
+}
+
+.timeField::-webkit-datetime-edit-text {
+  padding: 0.5rem 0.5em;
+}
+
+.timeField::-webkit-datetime-edit-day-field {
+  padding: 0.5rem 0em;
+}
+
+.timeField::-webkit-datetime-edit-month-field {
+  padding: 0.5rem 0em;
+}
+
+.timeField::-webkit-datetime-edit-year-field {
+  padding: 0.5rem 0em;
+}
+
+.timeField::-webkit-datetime-edit-hour-field {
+  padding: 0.5rem 0em;
+}
+
+.timeField::-webkit-datetime-edit-minute-field {
+  padding: 0.5rem 0em;
+}
+
